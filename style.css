@@ -1,4 +1,12 @@
 
+body {
+    background-color: #ecacef;
+    opacity: 20;
+    background-image: radial-gradient(#000000 0.65px, #ecacef 0.65px);
+    background-size: 13px 13px;
+}
+
+
 /* este es el cuadro pequeño*/
 .formulario{ 
     position: absolute;
@@ -16,16 +24,19 @@
 .formulario form{ /*formulario donde esta el nombre de usuario*/
     padding: 0 40px;
     box-sizing: content-box;
-    background: rgb(246, 107, 202);
+    background: #ecacef;
     margin: auto;
     max-width: 1000;
     text-align: center;
+    justify-content: center;
 
 }
-.container {
-    max-width: 100px;
+.formulario form {
     margin: auto;
+    width: 90%;
+    max-width: 230px;
 }
+
 
 
 
