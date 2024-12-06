@@ -1,0 +1,28 @@
+
+
+
+/* este es el cuadro pequeño*/
+.formulario{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 310px;
+    border-radius: 2%;
+    border-style: dashed;
+    border-width: 5px;
+}
+
+.formulario form{ /*formulario donde esta el nombre de usuario*/
+    padding: 0 40px;
+    box-sizing: content-box;
+    background: rgb(244, 96, 197);
+
+}
+
+
+
+
+
+
+
