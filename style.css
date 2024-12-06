@@ -1,6 +1,4 @@
 
-
-
 /* este es el cuadro pequeño*/
 .formulario{ 
     position: absolute;
@@ -11,15 +9,23 @@
     border-radius: 2%;
     border-style: dashed;
     border-width: 5px;
+    margin: auto;
+    text-align: center;
 }
 
 .formulario form{ /*formulario donde esta el nombre de usuario*/
     padding: 0 40px;
     box-sizing: content-box;
-    background: rgb(244, 96, 197);
+    background: rgb(246, 107, 202);
+    margin: auto;
+    max-width: 1000;
+    text-align: center;
 
 }
-
+.container {
+    max-width: 100px;
+    margin: auto;
+}
 
 
 
