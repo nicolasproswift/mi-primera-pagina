@@ -37,9 +37,17 @@ body {
     max-width: 230px;
 }
 
+.resolucion {
+    width:99%
+}
+@media (max-width: 767px){
+    .desktop {
+        display: none
+    }
+}
+@media (min-width: 991px) {
 
-
-
-
-
-
+    .desktop{
+        display: none
+    }
+ }
