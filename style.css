@@ -4,6 +4,9 @@ body {
     opacity: 20;
     background-image: radial-gradient(#000000 0.65px, #ecacef 0.65px);
     background-size: 13px 13px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
